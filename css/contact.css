@@ -1,0 +1,145 @@
+body {
+    background: #fafafa;
+}
+
+.dz_li {
+    width: 100%;
+    height: auto;
+    border-top: solid 1px #f2f2f2;
+    border-bottom: solid 1px #f2f2f2;
+    background: #ffffff;
+    padding: .4rem;
+    margin-bottom: .3rem;
+}
+
+.img_dt {
+    overflow: hidden;
+}
+
+.img_dt img {
+    float: left;
+    width: 0.5rem;
+    height: 0.48rem;
+    margin-right: .15rem;
+}
+
+.img_r {
+    float: left;
+    margin-top: .1rem;
+}
+
+.img_r p {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 0.2rem;
+    font-weight: 600;
+    font-stretch: normal;
+    line-height: 0.17rem;
+    letter-spacing: -0.01rem;
+    color: #0053a6;
+}
+
+.img_r span {
+    display: block;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 0.14rem;
+    font-weight: normal;
+    letter-spacing: 0rem;
+    color: #0053a6;
+}
+
+.dz_li h3 {
+    font-family: MicrosoftYaHei;
+    font-size: 0.28rem;
+    font-weight: 600;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #333333;
+    margin: .2rem 0;
+}
+
+.dz_list {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin: .3rem 0;
+}
+
+.dz_list span {
+    display: inline-block;
+    font-family: MicrosoftYaHei;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.36rem;
+    letter-spacing: 0rem;
+    color: #666666;
+}
+
+.dz_list .iconfont {
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #0053a6;
+    border-radius: 50%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .15rem;
+}
+
+.map_li {
+    border-top: solid 1px #f2f2f2;
+    background: #ffffff;
+    overflow: hidden;
+    padding: .3rem 0;
+}
+
+.map_li ul {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px #f2f2f2;
+}
+
+.map_li ul li {
+    width: 30%;
+    height: auto;
+    text-align: center;
+    padding-bottom: .15rem;
+}
+
+.map_li ul li img {
+    width: 0.42rem;
+    height: 0.4rem;
+}
+
+.map_li ul li .map-r h4 {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 0.14rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.24rem;
+    letter-spacing: 0rem;
+    color: #0053a6;
+}
+
+.map_li ul li .map-r p {
+    font-family: MicrosoftYaHei;
+    font-size: 0.18rem;
+    font-weight: normal;
+    letter-spacing: 0rem;
+    color: #333333;
+}
+
+.map_on {
+    border-bottom: 2px solid #0053a6;
+}
+
+#map{
+    width: 100%;
+    height: 6rem;
+    border-top: #ccc solid 1px;
+    border-bottom: #ccc solid 1px;
+    font-size: 12px
+}

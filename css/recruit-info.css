@@ -1,0 +1,40 @@
+.content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: .5rem .4rem;
+}
+.content h3{
+    font-family: MicrosoftYaHei;
+	font-size: 0.32rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #333333;
+}
+.xian{
+    display: block;
+    width: 100%;
+	height: 1px;
+    background: #e4e4e4;
+    position: relative;
+    margin-top: .3rem;
+}
+.xian::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0.52rem;
+	height: 0.02rem;
+	background: #0053a6;
+}
+.content p{
+    font-family: MicrosoftYaHei;
+	font-size: 0.24rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.5rem;
+	letter-spacing: 0rem;
+	color: #444444;
+}

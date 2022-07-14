@@ -1,0 +1,92 @@
+nav {
+    width: 7.5rem;
+    height: 0.8rem;
+    background-color: #f8f8f8;
+    position: relative;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+nav ul li {
+    float: left;
+    min-width: 60px;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    font-family: MicrosoftYaHei;
+    font-size: 0.24rem;
+    font-weight: normal;
+    letter-spacing: 0rem;
+    color: #333333;
+}
+
+nav ul li.nav_on a {
+    color: #f6aa15;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: .5rem .4rem;
+}
+.content h3{
+    text-align: center;
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 0.36rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.72rem;
+	letter-spacing: 0.02rem;
+	color: #0053a6;
+}
+.content .con_y{
+    text-align: center;
+    font-family: Arial-BoldMT;
+	font-size: 0.16rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0.01rem;
+    color: #cccccc;
+    margin-bottom: .3rem;
+}
+.content p{
+    text-align: center;
+    font-family: MicrosoftYaHei;
+	font-size: 0.24rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.48rem;
+	letter-spacing: 0rem;
+	color: #333333;
+}
+.human_box{
+    width: 100%;
+    height: auto;
+    border: 2px solid #0053a6;
+    padding: 1px;
+    margin-top: .3rem;
+}
+.human_box p{
+    background: #0053a6;
+    font-family: MicrosoftYaHei;
+	font-size: 0.24rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.48rem;
+	letter-spacing: 0rem;
+	color: #ffffff;
+    padding: .3rem;
+}
+.content img{
+    width: 100%;
+    margin-top: .3rem;
+}

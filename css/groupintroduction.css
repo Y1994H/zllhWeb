@@ -1,0 +1,215 @@
+
+.information{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: .8rem .4rem;
+}
+.information h3{
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 0.3rem;
+	font-weight: 600;
+	font-stretch: normal;
+	line-height: 0.3rem;
+	letter-spacing: 0rem;
+	color: #002c75;
+}
+.in_p{
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 0.16rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.3rem;
+	letter-spacing: 0.02rem;
+    color: #666666;
+    margin-top: .05rem;
+}
+.infor{
+    margin-top: .45rem;
+}
+.infor p{
+    font-family: MicrosoftYaHei;
+	font-size: 0.24rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.48rem;
+	letter-spacing: 0rem;
+    color: #666666;
+    text-align: justify;
+    margin: .1rem 0;
+}
+.address{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: .8rem .4rem;
+    background: #f5f5f5;
+}
+.addy{
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 0.36rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.48rem;
+	letter-spacing: 0rem;
+	color: #0053a6;
+}
+.addz{
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 0.36rem;
+	font-weight: normal;
+	letter-spacing: 0rem;
+	color: #333333;
+}
+.address img{
+    width: 100%;
+    margin: .35rem auto;
+}
+.addcon p{
+    text-align: justify;
+    font-family: MicrosoftYaHei;
+	font-size: 0.24rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.48rem;
+	letter-spacing: 0rem;
+	color: #666666;
+}
+.addname{
+    text-align: right;
+    font-family: SourceHanSansCN-Light;
+	font-size: 0.24rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.39rem;
+	letter-spacing: 0rem;
+	color: #555555;
+}
+.addcon img{
+    width: 1.67rem;
+    height: 0.81rem;
+    float: right;
+    margin-right: .66rem;
+}
+.process{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: .8rem .4rem;
+    background: #fff;
+}
+.process h3{
+    text-align: center;
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 0.3rem;
+	font-weight: 600;
+	font-stretch: normal;
+	line-height: 0.3rem;
+	letter-spacing: 0rem;
+	color: #002c75;
+}
+.process .process_y{
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 0.16rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.3rem;
+	letter-spacing: 0.02rem;
+    color: #666666;
+    text-align: center;
+}
+.process_li{
+    padding: .5rem;
+    background-color: #ffffff;
+    border: solid 0.01rem #dcdcdc;
+    margin-top: .5rem;
+}
+.process_li h4{
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 0.24rem;
+	font-weight: 600;
+	font-stretch: normal;
+	line-height: 0.3rem;
+	letter-spacing: -0.01rem;
+	color: #333333;
+}
+.process_li p{
+    font-family: MicrosoftYaHei;
+	font-size: 0.24rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.3rem;
+	letter-spacing: 0rem;
+    color: #666666;
+}
+.association{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: .8rem .4rem;
+    background: #f5f5f5;
+}
+.association h3{
+    text-align: center;
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 0.3rem;
+	font-weight: 600;
+	font-stretch: normal;
+	line-height: 0.3rem;
+	letter-spacing: 0rem;
+	color: #002c75;
+}
+.association .association_p{
+    text-align: center;
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 0.16rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.3rem;
+	letter-spacing: 0.02rem;
+	color: #666666;
+}
+.hy_li{
+    overflow: hidden;
+    border-bottom: 1px solid #f1f1f1;
+}
+.hy_li span{
+    display: block;
+    float: left;
+}
+.hy_on{
+    width: 65%;
+    height: .73rem;
+    border-right: 1px solid #f1f1f1;
+    text-align: center;
+    line-height: .73rem;
+}
+.hy_span_on{
+    width: 35%;
+    text-align: center;
+    line-height: .73rem;
+}
+.hy_span{
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 0.19rem;
+	font-weight: 600;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #333333;
+}
+
+.hy_span_1{
+    font-family: MicrosoftYaHei;
+	font-size: 0.19rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #666666;
+}
+.hy_left{
+    width: 100%;
+	height: auto;
+	background: #ffffff;
+    overflow: hidden;
+    margin-top: .3rem;
+}

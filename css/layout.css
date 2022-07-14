@@ -1,0 +1,72 @@
+nav{
+    width: 7.5rem;
+	height: 0.8rem;
+    background-color: #f8f8f8;
+    position: relative;
+}
+nav ul{
+    height: 100%;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items: center;
+    overflow:auto;
+}
+nav ul li {
+    float: left;
+    min-width: 60px;
+    margin: 0 18px;
+}
+nav ul li a{
+    font-family: MicrosoftYaHei;
+	font-size: 0.24rem;
+	font-weight: normal;
+	letter-spacing: 0rem;
+	color: #333333;
+}
+nav ul li.nav_on a{
+    color: #f6aa15;
+}
+.content{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: .5rem .4rem;
+}
+.content h4{
+    text-align: center;
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 0.3rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.24rem;
+	letter-spacing: 0rem;
+    color: #0053a6;
+   
+}
+.content h6{
+    text-align: center;
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 0.14rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.24rem;
+	letter-spacing: 0rem;
+    color: #666666;
+    margin-top: .15rem;
+}
+.content img{
+    width: 100%;
+    margin: .35rem 0;
+}
+.content p{
+    font-family: MicrosoftYaHei;
+	font-size: 0.24rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.48rem;
+	letter-spacing: 0rem;
+    color: #666666;
+    text-indent: 2em;
+    text-align: justify;
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="js/rem.js"></script>
+    <script type="text/javascript"
+        src="https://api.map.baidu.com/api?v=2.0&ak=i1Uh6ytUrkK63gktpjCXK2ZO44OqBdrY"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header_w">
+        <div class="header">
+            联系我们
+            <img class="btn_no" src="img/an.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="dz_li">
+            <div class="img_dt">
+                <img src="img/dt1.jpg" alt="">
+                <div class="img_r">
+                    <p>FUJIAN</p>
+                    <span>HEADQUARTERS</span>
+                </div>
+            </div>
+            <h3>中联路海集团有限公司</h3>
+            <div class="dz_list">
+                <span class="iconfont">&#xe666;</span>
+                <span>集团电话：400-600-3306</span>
+            </div>
+            <div class="dz_list">
+                <span class="iconfont">&#xe608;</span>
+                <span>集团传真：+86-0592-6015516</span>
+            </div>
+            <div class="dz_list">
+                <span class="iconfont">&#xe908;</span>
+                <span>企业邮箱：gw@gangwan.cn</span>
+            </div>
+            <!-- 集团地址：福建厦门集美软件园B区03栋27楼 -->
+            <div class="dz_list">
+                <span class="iconfont">&#xe652;</span>
+                <span>集团地址：福建厦门集美软件园B区03栋27楼</span>
+            </div>
+        </div>
+        <div class="dz_li">
+            <div class="img_dt">
+                <img src="img/dt2.jpg" alt="">
+                <div class="img_r">
+                    <p>FUJIAN</p>
+                    <span>HEADQUARTERS</span>
+                </div>
+            </div>
+            <h3>厦门港湾试验检测有限公司</h3>
+            <div class="dz_list">
+                <span class="iconfont">&#xe666;</span>
+                <span>集团电话：400-600-3306</span>
+            </div>
+            <div class="dz_list">
+                <span class="iconfont">&#xe608;</span>
+                <span>集团传真：+86-0592-6015516</span>
+            </div>
+            <div class="dz_list">
+                <span class="iconfont">&#xe908;</span>
+                <span>企业邮箱：gw@gangwan.cn</span>
+            </div>
+            <!-- 集团地址：福建厦门集美软件园B区03栋27楼 -->
+            <div class="dz_list">
+                <span class="iconfont">&#xe652;</span>
+                <span>集团地址：厦门市集美区珩田路547号之一</span>
+            </div>
+        </div>
+        <div class="dz_li">
+            <div class="img_dt">
+                <img src="img/dt3.jpg" alt="">
+                <div class="img_r">
+                    <p>FUJIAN</p>
+                    <span>HEADQUARTERS</span>
+                </div>
+            </div>
+            <h3>北京中联路海软件科技有限公司有公司</h3>
+            <div class="dz_list">
+                <span class="iconfont">&#xe666;</span>
+                <span>集团电话：400-600-3306</span>
+            </div>
+            <div class="dz_list">
+                <span class="iconfont">&#xe608;</span>
+                <span>集团传真：+86-0592-6015516</span>
+            </div>
+            <div class="dz_list">
+                <span class="iconfont">&#xe908;</span>
+                <span>企业邮箱：gw@gangwan.cn</span>
+            </div>
+            <!-- 集团地址：福建厦门集美软件园B区03栋27楼 -->
+            <div class="dz_list">
+                <span class="iconfont">&#xe652;</span>
+                <span>集团地址：北京市海淀区中关村东路18号</span>
+            </div>
+        </div>
+        <!-- 地图 -->
+        <div class='map_li'>
+            <ul>
+                <li class='map_on'>
+                    <div class='map-r'>
+                        <img src="img/dt1.jpg" alt="">
+                        <h4>FUJIAN</h4>
+                        <p>中联路海集团有限公司</p>
+                    </div>
+                </li>
+                <li>
+                    <div class='map-r'>
+                        <img src="img/dt2.jpg" alt="">
+                        <h4>XIAMEN</h4>
+                        <p>厦门港湾试验检测有限公司</p>
+                    </div>
+                </li>
+                <li>
+                    <div class='map-r'>
+                        <img src="img/dt3.jpg" alt="">
+                        <h4>BEIJING</h4>
+                        <p>北京中联路海软件科技有限公司</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--百度地图容器-->
+        <div id="map"></div>
+    </div>
+    <!--底部 -->
+    <footer>
+        <ul>
+            <li class="footer_on">
+                <a href="">
+                    <span class="iconfont">&#xe62d;</span>
+                    <span>网站首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="iconfont">&#xe619;</span>
+                    <span>集团介绍</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="iconfont">&#xe673;</span>
+                    <span>产业布局</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="iconfont">&#xe666;</span>
+                    <span>联系我们</span>
+                </a>
+            </li>
+
+
+        </ul>
+    </footer>
+    <!-- 菜单 -->
+    <div class="menu_wrap">
+        <div class="menu_top">
+            <img src="img/an.jpg" alt="">
+            菜单
+            <span id="off" class="iconfont off">&#xe664;</span>
+        </div>
+        <ul class="menu_ul">
+            <!-- 集团简介-->
+            <li>
+                <div class="menu_a">
+                    <div class="menu_left">
+                        <span class="iconfont">&#xe649;</span>
+                        集团简介
+                    </div>
+                    <span class="iconfont menu_right">&#xe62e;</span>
+                </div>
+                <ul class="menu_ul_b">
+                    <li>
+                        <a href="">
+                            集团简介
+                            <span class="iconfont">&#xe62e;</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!--企业文化 -->
+            <li>
+                <div class="menu_a">
+                    <div class="menu_left">
+                        <span class="iconfont">&#xe61d;</span>
+                        企业文化
+                    </div>
+                    <span class="iconfont menu_right">&#xe62e;</span>
+                </div>
+                <ul class="menu_ul_b">
+                    <li>
+                        <a href="">
+                            企业文化
+                            <span class="iconfont">&#xe62e;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            经营理念
+                            <span class="iconfont">&#xe62e;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            团队建设
+                            <span class="iconfont">&#xe62e;</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- 产业布局 -->
+            <li>
+                <div class="menu_a">
+                    <div class="menu_left">
+                        <span class="iconfont">&#xe673;</span>
+                        产业布局
+                    </div>
+                    <span class="iconfont menu_right">&#xe62e;</span>
+                </div>
+                <ul class="menu_ul_b">
+                    <li>
+                        <a href="">
+                            产业布局
+                            <span class="iconfont">&#xe62e;</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- 新闻动态 -->
+            <li>
+                <div class="menu_a">
+                    <div class="menu_left">
+                        <span class="iconfont">&#xe8ae;</span>
+                        新闻动态
+                    </div>
+                    <span class="iconfont menu_right">&#xe62e;</span>
+                </div>
+                <ul class="menu_ul_b">
+                    <li>
+                        <a href="">
+                            新闻动态
+                            <span class="iconfont">&#xe62e;</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- 人力资源 -->
+            <li>
+                <div class="menu_a">
+                    <div class="menu_left">
+                        <span class="iconfont">&#xe60f;</span>
+                        人力资源
+                    </div>
+                    <span class="iconfont menu_right">&#xe62e;</span>
+                </div>
+                <ul class="menu_ul_b">
+                    <li>
+                        <a href="">
+                            人力资源
+                            <span class="iconfont">&#xe62e;</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- 联系我们 -->
+            <li>
+                <div class="menu_a">
+                    <div class="menu_left">
+                        <span class="iconfont">&#xe666;</span>
+                        联系我们
+                    </div>
+                    <span class="iconfont menu_right">&#xe62e;</span>
+                </div>
+                <ul class="menu_ul_b">
+                    <li>
+                        <a href="">
+                            联系我们
+                            <span class="iconfont">&#xe62e;</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="js/jquery-1.11.0.js"></script>
+<script src="js/common.js"></script>
+<script>
+    $(function () {
+        //经度
+        var jingdu = '';
+        //纬度
+        var weidu = '';
+        //公司名字
+        var title = '';
+        //地址
+        var _dz = '';
+        jingdu = 118.053621;
+        weidu = 24.617115;
+        title = '中联路海集团有限公司地图';
+        _dz = '福建省厦门市集美区软件园三期B区03栋27楼';
+        map(jingdu, weidu, title, _dz)
+        //点击切换地图
+        $('.map_li ul li').click(function () {
+            $('.map_li ul li').removeClass('map_on');
+            $(this).addClass('map_on');
+            if ($(this).index() == 0) {
+                jingdu = 118.053621;
+                weidu = 24.617115;
+                title = '中联路海集团有限公司地图';
+                _dz = '福建省厦门市集美区软件园三期B区03栋27楼';
+            } else if ($(this).index() == 1) {
+                //厦门港湾试验检测有限公司：厦门市集美区珩田路547号之一
+                jingdu = 118.077341;
+                weidu = 24.634297;
+                title = '厦门港湾试验检测有限公司';
+                _dz = '厦门市集美区珩田路547号之一';
+            } else if ($(this).index() == 2) {
+                //北京中联路海软件科技有限公司有公司：北京市海淀区中关村东路18号1至2层11-2069
+                jingdu = 116.340481;
+                weidu = 39.993693;
+                title = '北京中联路海软件科技有限公司有公司';
+                _dz = '北京市海淀区中关村东路18号1至2层11-2069';
+            }
+            map(jingdu, weidu, title, _dz);
+        })
+        //地图
+        function map(j, w, t, d) {
+            setTimeout(function () {
+                //创建地图
+                var map = new BMap.Map("map");
+                //地址坐标经度，维度
+                var point = new BMap.Point(j, w);
+                // 创建标注
+                var marker = new BMap.Marker(point);
+                // 将标注添加到地图中
+                map.addOverlay(marker);
+                map.centerAndZoom(point, 15);
+
+                var opts = {
+                    width: 200,     // 信息窗口宽度
+                    height: 50,     // 信息窗口高度
+                    title: t, // 信息窗口标题
+                }
+                // 创建信息窗口对象
+                var infoWindow = new BMap.InfoWindow(d, opts);
+                //开启信息窗口 
+                map.openInfoWindow(infoWindow, point);
+                //设置鼠标滚轮缩放 
+                map.enableScrollWheelZoom(true);
+                // 点击打开信息窗口
+                marker.addEventListener("click", function () {
+                    map.openInfoWindow(infoWindow, point); //开启信息窗口
+                });
+            }, 500)
+        }
+    })
+</script>
+
+</html>
